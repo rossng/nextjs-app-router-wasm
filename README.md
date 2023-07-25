@@ -1,15 +1,11 @@
 # Hello, World!
 
-[View documentation for this example online][dox] or [View compiled example
-online][compiled]
-
-[compiled]: https://rustwasm.github.io/wasm-bindgen/exbuild/hello_world/
-[dox]: https://rustwasm.github.io/docs/wasm-bindgen/examples/hello-world.html
-
-You can build the example locally with:
-
 ```
-$ npm run serve
+$ yarn
+$ cargo build
+$ yarn serve
 ```
 
-and then visiting http://localhost:8080 in a browser should run the example!
+You may need to install wasm-pack first: see https://rustwasm.github.io/wasm-pack/installer/
+
+Visit http://localhost:8080 in a browser to run the example.
