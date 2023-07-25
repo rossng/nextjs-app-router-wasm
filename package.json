@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "dev": "next"
   },
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "1.7.0",
@@ -10,5 +11,10 @@
     "webpack": "^5.49.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "next": "^13.4.13-canary.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

@@ -1,3 +1,3 @@
-import { greet } from './pkg';
+import { greet } from "./pkg";
 
-greet('World');
+greet("World");
